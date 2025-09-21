@@ -1,10 +1,6 @@
     function press(value) {
     let out = document.getElementById("result");
     out.innerHTML +=value
-
-    if(value === "+"){
-        console.log("Это плюс")
-    }
 };
 
 function Result() {
@@ -16,3 +12,4 @@ function Result() {
 function Clear() {
     document.getElementById("result").innerHTML = "";
 }
+

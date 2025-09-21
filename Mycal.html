@@ -7,25 +7,33 @@
     <link rel="stylesheet" href="calstyle.css">
 </head>
 <body>
-    <p id="result"></p>
+    <div id="Cal">
+    <div>
+    <p id="result">0</p>
+    </div>
+    <div>
+    <button id="Clear" onclick="Clear()">AC</button>
     <button id="one" onclick="press(1)">1</button>
     <button id="two" onclick="press(2)">2</button>
     <button id="three" onclick="press(3)">3</button>
     <button id="plus" onclick="press('+')">+</button><br>
+
     <button id="four" onclick="press(4)">4</button>
     <button id="five" onclick="press(5)">5</button>
     <button id="six" onclick="press(6)">6</button>
     <button id="minus" onclick="press('-')">-</button><br>
+
     <button id="seven" onclick="press(7)">7</button>
     <button id="eight" onclick="press(8)">8</button>
     <button id="nine" onclick="press(9)">9</button>
     <button id="times" onclick="press('*')">*</button><br>
+
+    <button id="dot" onclick="press('.')">.</button>
     <button id="zero" onclick="press(0)">0</button>
-    <button id="Result" onclick="Result()">Result</button>
-    <button id="Clear" onclick="Clear()">Clear</button>
+    <button id="Result" onclick="Result()">=</button>
     <button id="divide" onclick="press('/')">/</button>
     </div>
-    <p>Hello</p>
+    </div>
     <script src="Mycal.js"></script>
 </body>
 </html>
